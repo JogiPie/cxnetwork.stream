@@ -1,0 +1,128 @@
+.rssttl {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	font-style: normal;
+	color: #000000;
+	font-weight: bold;
+	
+		margin: 0px 0;
+	padding: 2;
+}
+/* begin styles for RSS Feed */
+
+.rss-box {
+	width: 400px;
+	background-color: #666699;
+	text-align: left;
+	vertical-align: middle;
+	margin: 2px;
+	padding: 5px;
+	height: 100%;
+}
+.rss-items {
+	padding:5px;
+	color: #000000;
+	margin: 5px;
+
+}
+p.rss-title {
+	margin: 0px;
+	padding:3px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bolder;
+	color: #ffffff;
+	background-color: #cc0099;
+	border-top: 1px solid #FFCC33;
+	border-right: 1px solid #FFCC33;
+	border-bottom: 1px solid #FFCC33;
+	border-left: 1px solid #FFCC33;
+	
+	
+}
+.rss-title, rss_title a {
+	text-decoration: none;
+	font-family: verdana, sans-serif;
+	font-size: 9px
+	background-color: #ffffff;
+	color: #ffffff;
+	font-weight:bold;
+	margin: 0px;
+	padding:0px;
+	text-align: left;
+	font-size: 12px;
+	border-left-width: 0px;
+	border-left-style: solid;
+	border-left-color: #000000;
+}
+
+.rss-item  {
+	font-family: verdana, arial, sans-serif;
+	font-size: 9px;
+	font-weight : normal;
+	color: #ffffff;
+	list-style:none;
+	margin-bottom: 8px;
+	padding:5;
+}
+
+.rss-item a {
+	color: #ffffff;
+	font-size: 11px;
+	font-weight:bold;
+	font-family: Arial, Helvetica, sans-serif;
+	font-style: normal;
+	text-decoration: none;
+	text-indent: 5px;
+	line-height: 12px;
+	letter-spacing: normal;
+	text-align: left;
+	vertical-align: bottom;
+	word-spacing: normal;
+	}
+	
+.rss-item a:visited {
+	color: #990033;
+}
+.rss-item a:hover {
+	color: #ffff66;
+	text-decoration: underline;
+}
+
+.rss-date {
+	font-size: 10px;
+	font-weight : normal;
+	color: #0033CC;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	} 
+/* buttons modeled from http://www.wellstyled.com/css-inline-buttons.html */
+
+.pod-play {
+   _width:12em;
+   margin: 0 0.2em; padding: 0.1em 0; _padding:0;
+   
+   white-space:nowrap;
+   text-decoration: none;
+   vertical-align:middle;
+   background: #fb6;
+   color: black;
+   }
+.pod-play em {
+   _width:1em; _cursor:hand;
+   font-style: normal;
+   margin:0; padding: 0.1em 0.5em;
+   background: white;
+   color: #222;
+   }
+.pod-play span {
+   _width:1em; _cursor:hand;
+   margin:0; padding: 0.1em 0.5em 0.1em 0.3em;
+   }
+.pod-play:hover {
+   background: #666;
+   color: white;
+   }
+.pod-play:hover em {
+   background: black;
+   color: white
+   }
